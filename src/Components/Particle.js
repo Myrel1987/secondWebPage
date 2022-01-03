@@ -1,4 +1,4 @@
-import Particles from "react-particles-js";
+import Particles from "react-tsparticles";
 import React from "react";
 
 function Particle() {
@@ -10,14 +10,14 @@ function Particle() {
         params={{
           particles: {
             number: {
-              value: 100,
+              value: 120,
               density: {
                 enable: false,
-                value_area: 800,
+                value_area: 1200,
               },
             },
             color: {
-              value: "hsla(235, 100%, 90%, 0.6 )",
+              value: "hsla(35, 100%, 90%, 0.8 )",
             },
             shape: {
               type: "circle",
@@ -31,18 +31,18 @@ function Particle() {
             line_linked: {
               enable: true, //daca il pun pe false se elimina liniile dintre puncte
               distance: 100,
-              opacity: 0.7,
-              width: 1.5,
+              opacity: 0.3,
+              width: 1.0,
               shadow: {
                 enable: true,
-                color: "hsla(205, 100%, 60%, 0.5 )",
+                color: "hsla(25, 100%, 60%, 0.9 )",
                 blur: 4,
               },
             },
             move: {
               enable: true,
               random: true,
-              speed: 2,
+              speed: 1,
               attract: {
                 rotateX: 600,
                 rotateY: 1200,
@@ -57,7 +57,7 @@ function Particle() {
               },
             },
             opacity: {
-              value: 0.8,
+              value: 0.5,
               anim: {
                 speed: 3,
                 opacity_min: 0.1,

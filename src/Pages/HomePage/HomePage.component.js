@@ -8,10 +8,10 @@ import LinkedIn from "@material-ui/icons/LinkedIn";
 function HomePage() {
   return (
     <HomePageStyled>
-      <div className="particle-con">
-        <Particle />
-      </div>
       <div className="typography">
+        <div className="particle-con">
+          <Particle />
+        </div>
         <h1>
           Hello there , I'm Mirel -<span> Your Website creator </span>
           <p>
