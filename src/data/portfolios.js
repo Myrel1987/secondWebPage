@@ -1,4 +1,7 @@
 import img1 from "../Images/img1.png";
+import food from "../Images/food.png";
+import checkmypass from "../Images/checkmypass.png";
+import py2 from "../Images/py2.jpg";
 
 const portfolios = [
   {
@@ -14,7 +17,7 @@ const portfolios = [
   {
     id: 2,
     category: "React",
-    image: img1,
+    image: food,
     webLink: "https://github.com/Myrel1987/Recipe-app",
     githubLink: "https://github.com/Myrel1987/Recipe-app",
     title: "Food_recipes",
@@ -23,7 +26,7 @@ const portfolios = [
   {
     id: 3,
     category: "Python",
-    image: img1,
+    image: checkmypass,
     webLink: "https://github.com/Myrel1987/Python-CheckMyPass",
     githubLink: "https://github.com/Myrel1987/Python-CheckMyPass",
     title: "Check_my_Pass",
@@ -32,7 +35,7 @@ const portfolios = [
   {
     id: 4,
     category: "Python",
-    image: img1,
+    image: py2,
     webLink: "https://github.com/Myrel1987/python_website",
     githubLink: "https://github.com/Myrel1987/python_website",
     title: "website + python_server and database",
