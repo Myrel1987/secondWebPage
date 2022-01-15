@@ -28,7 +28,7 @@ const GlobalStyle = createGlobalStyle`
    list-style: none;
    text-decoration: none;
    font-family: 'Nunito', sans-serif;
-   font-size: 1.2rem;
+   font-size: 1.1rem;
 }
 
 body{
@@ -45,7 +45,6 @@ a{
 h1{
    font-size: 4rem;
    color: var(--white-color);
-    
    span{
        font-size: 4rem;
        @media screen and (max-width: 502px){
@@ -88,7 +87,7 @@ h6{
         transform: translateX(0);
         z-index: 20;
     }
-  @media screen and (max-width:1200px){
+  @media screen and (max-width:680px){
     .ham-burger-menu{
         display: block;
     }
