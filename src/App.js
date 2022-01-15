@@ -1,5 +1,4 @@
 import React from "react";
-
 import { useState } from "react";
 import Sidebar from "./Components/Siderbar/Sidebar";
 import MainContentStyled from "./Components/MainContentStyled";
@@ -7,6 +6,7 @@ import { Routes, Route } from "react-router-dom";
 import HomePage from "./Pages/HomePage/HomePage.component";
 import AboutPage from "./Pages/AboutPage/AboutPage.component";
 import ResumePage from "./Pages/ResumePage/ResumePage.component";
+import PortfoliosPage from "./Pages/PortfolioPage/PortfolioPage.component";
 import ContactPage from "./Pages/ContactPage/ContactPage.component";
 import { IconButton } from "@material-ui/core";
 import MenuIcon from "@material-ui/icons/Menu";
@@ -31,6 +31,8 @@ function App() {
           <Route path="/about" element={<AboutPage />} />
 
           <Route path="/resume" element={<ResumePage />} />
+
+          <Route path="/portfolio" element={<PortfoliosPage />} />
 
           <Route path="/contact" element={<ContactPage />} />
         </Routes>

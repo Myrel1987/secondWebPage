@@ -13,7 +13,7 @@ import java3 from "../../Images/Certificates/java3.png";
 import javascript1 from "../../Images/Certificates/javascript1.png";
 import javascript2 from "../../Images/Certificates/javascript2.png";
 import git from "../../Images/Certificates/git.png";
-
+import py from "../../Images/Certificates/py.jpg";
 import web_dev from "../../Images/Certificates/web_dev.png";
 import react_developer from "../../Images/Certificates/react_developer.jpg";
 
@@ -33,24 +33,23 @@ function Resume() {
             title={"E-Commerce platform"}
             subTitle={"Personal portfolio project"}
             text={
-              "This project is an E-Commerce platform, wich has a lot of practical features like: SIgnIn/SignUp(using Firebase), Payments(using Stripe API-test mode), modern React code(styled components, Redux, Hooks...)"
+              "This project is an E-Commerce platform, which has a lot of practical features like: SIgnIn/SignUp(using Firebase), Payments(using Stripe API-test mode), modern React code(styled components, Redux, Hooks...)"
             }
           />
-          <div className="links">
-            <a href="https://web-shopping2021.herokuapp.com">
-              Link to the page
-            </a>
-            <a href="https://github.com/Myrel1987/web-shop-PersonalProject">
-              Link to GitHub
-            </a>
-          </div>
-
+          <ResumeItem
+            year={"January 2022 - Present"}
+            title={"Check-my-password"}
+            subTitle={"Personal Portfolio"}
+            text={
+              "This is my first python app, which I find it very awesome and useful, especially, if you want to be sure that you have a strong password "
+            }
+          />
           <ResumeItem
             year={"2021 - Present"}
             title={"Food-Recipe app"}
             subTitle={"Personal Portfolio"}
             text={
-              "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa nihil impedit natus nostrum? Velit accusantium id quos, nihil vel quod.Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. "
+              "This is a very user-friendly app, connected to an external API , which generates recipes,I used React, React-Hooks, CSS."
             }
           />
           <ResumeItem
@@ -58,7 +57,7 @@ function Resume() {
             title={"Personal Website"}
             subTitle={"Personal Project"}
             text={
-              "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa nihil impedit natus nostrum? Velit accusantium id quos, nihil vel quod.Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. "
+              "For this project I used React, styled-components, framer-motion, Particles-js, React Hooks  and much more, because I wanted to proof myself that if you want something good, you"
             }
           />
         </div>
@@ -113,7 +112,9 @@ function Resume() {
 
           <ResumeItem
             year={"2021"}
-            title={"Beginner Fullstack developer, React Developer"}
+            title={
+              "Beginner Fullstack developer, React Developer, Python Developer"
+            }
             subTitle={"Udemy"}
             text={
               "Those war a very friendly beginner to advanced courses, that opened a new horizon front of me, the world of web-development."
@@ -126,6 +127,9 @@ function Resume() {
             </div>
             <div class="photo">
               <img src={react_developer} alt="react_developer" />
+            </div>
+            <div class="photo">
+              <img src={py} alt="Python_developer" />
             </div>
           </div>
         </div>

@@ -18,6 +18,8 @@ function Skills() {
           <ProgressBar title={"React.JS"} width={"70%"} text={"70%"} />
           <ProgressBar title={"styled-components"} width={"55%"} text={"55%"} />
           <ProgressBar title={"Firebase"} width={"40%"} text={"40%"} />
+          <ProgressBar title={"Python"} width={"60%"} text={"60%"} />
+          <ProgressBar title={"SQL"} width={"40%"} text={"40%"} />
         </div>
       </InnerLayout>
     </SkillsStyled>
