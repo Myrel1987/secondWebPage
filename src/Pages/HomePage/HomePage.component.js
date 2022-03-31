@@ -13,7 +13,7 @@ function HomePage() {
           <Particle />
         </div>
         <h1>
-          Hello there , I'm Mirel -<span> Your Website creator </span>
+          Hello there , I'm Mirel -<span> Software Developer </span>
           <p>
             "In some ways, programming is like painting. You start with a blank
             canvas and certain basic raw materials. You use a combination of
