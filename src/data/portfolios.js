@@ -12,7 +12,7 @@ const portfolios = [
     githubLink: "https://github.com/Myrel1987/web-shop-PersonalProject",
     title: "E-Commerce platform",
     text:
-      "This project is an E-Commerce platform, which has a lot of practical features like: SIgnIn/SignUp(using Firebase), Payments(using Stripe API-test mode), modern React code(styled components, Redux, Hooks...)",
+      "This project is an E-Commerce platform, which has a lot of practical features like: SIgnIn/SignUp(using Firebase), Payments(using Stripe API-test mode), modern React code(styled components, Redux,...)",
   },
   {
     id: 2,
